@@ -27,7 +27,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-import json, os
+import json, os, re
 
 class counter:
     def __init__(self, path=None, save_on_that_path=False) -> None:
@@ -82,8 +82,14 @@ class counter:
         if self.save_on_path==True:
             save_type = f'{self.__path}/folder_hierarchy.json'
         if self.save_on_path==False:
-            save_type = self.__path.replace("/","_").replace(":","_").replace("\\","_")
+            save_type = self.__path.replace("/","_").replace(":","_").replace("\\","_").replace('.',"_")
             save_type = f'{save_type}_folder_hierarchy.json'
+            regex = re.compile(r'[_]{2,}')
+
+            while len(regex.findall(save_type))!=0:
+                for underscores in regex.findall(save_type):
+                    save_type = save_type.replace(underscores, '_')
+            print(save_type)
 
         with open(save_type,'w',encoding='utf-8') as file:
             file.write(json.dumps(output, indent=4))

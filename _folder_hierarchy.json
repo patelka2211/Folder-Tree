@@ -1,0 +1,111 @@
+{
+    "./": {
+        ".git": {
+            "undefined_extension": 7,
+            "hooks": {
+                "sample": 13
+            },
+            "info": {
+                "undefined_extension": 1
+            },
+            "logs": {
+                "undefined_extension": 1,
+                "refs": {
+                    "heads": {
+                        "undefined_extension": 1
+                    },
+                    "remotes": {
+                        "origin": {
+                            "undefined_extension": 2
+                        }
+                    }
+                }
+            },
+            "objects": {
+                "16": {
+                    "undefined_extension": 1
+                },
+                "30": {
+                    "undefined_extension": 1
+                },
+                "8e": {
+                    "undefined_extension": 1
+                },
+                "a1": {
+                    "undefined_extension": 1
+                },
+                "a8": {
+                    "undefined_extension": 2
+                },
+                "d3": {
+                    "undefined_extension": 1
+                },
+                "da": {
+                    "undefined_extension": 1
+                },
+                "dd": {
+                    "undefined_extension": 1
+                },
+                "e6": {
+                    "undefined_extension": 1
+                },
+                "f1": {
+                    "undefined_extension": 1
+                },
+                "fa": {
+                    "undefined_extension": 1
+                },
+                "info": {},
+                "pack": {
+                    "idx": 1,
+                    "pack": 1
+                }
+            },
+            "refs": {
+                "heads": {
+                    "undefined_extension": 1
+                },
+                "remotes": {
+                    "origin": {
+                        "undefined_extension": 2
+                    }
+                },
+                "tags": {}
+            }
+        },
+        "gitignore": 1,
+        "Folder1": {
+            "html": 1,
+            "js": 1,
+            "py": 1,
+            "Folder2": {
+                "cpp": 1,
+                "php": 1
+            },
+            "Folder3": {
+                "c": 1,
+                "css": 1,
+                "java": 1
+            }
+        },
+        "undefined_extension": 1,
+        "py": 1,
+        "md": 1,
+        "json": 2
+    },
+    "undefined_extension": 28,
+    "sample": 13,
+    "py": 2,
+    "json": 2,
+    "idx": 1,
+    "pack": 1,
+    "gitignore": 1,
+    "html": 1,
+    "js": 1,
+    "cpp": 1,
+    "php": 1,
+    "c": 1,
+    "css": 1,
+    "java": 1,
+    "md": 1
+}
