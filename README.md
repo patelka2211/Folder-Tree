@@ -27,7 +27,6 @@ It lets you see folder in a hierarchical manner and also counts every file exten
 [Hierarchy JSON file of "Folder1"](./_Folder1_folder_hierarchy.json)
 
 ```json
-// Example
 {
     "root_folder":{
         "sub_folder1":{
