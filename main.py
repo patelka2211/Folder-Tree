@@ -27,7 +27,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
-import json, os, re
+import json, os, re, sys
 
 class counter:
     def __init__(self, path=None, save_on_that_path=False) -> None:
@@ -80,7 +80,8 @@ class counter:
             output[item] = self.__total_files_count[item]
 
         if self.save_on_path==True:
-            save_type = f'{self.__path}/folder_hierarchy.json'
+            save_type = self.__path.replace("\\","/")
+            save_type = f'{save_type}/folder_hierarchy.json'
         if self.save_on_path==False:
             save_type = self.__path.replace("/","_").replace(":","_").replace("\\","_").replace('.',"_")
             save_type = f'{save_type}_folder_hierarchy.json'
@@ -96,6 +97,7 @@ class counter:
 
         print(f'Saved as {save_type}')
 
-obj = counter('./')
+# obj = counter('./')
+obj = counter(sys.argv[1], json.loads(sys.argv[2].lower()))
 
 obj.save_json()
