@@ -48,7 +48,16 @@ It lets you see folder in a hierarchical manner and also counts every file exten
 }
 ```
 
-# License
-[MIT License](./LICENSE)
+# About languages
 
-Copyright (c) 2022 [Kartavya Patel](https://github.com/patelka2211)
+|Total used languages|Top language|
+|:--:|:--:|
+|![GitHub language count](https://img.shields.io/github/languages/count/patelka2211/Folder-Tree)|![GitHub top language](https://img.shields.io/github/languages/top/patelka2211/Folder-Tree)|
+
+# License
+
+[![GitHub](https://img.shields.io/github/license/patelka2211/Folder-Tree?color=%2359c7fa)](./LICENSE)
+
+<p style="text-align: center;">&copy; 2022
+<a href="https://github.com/patelka2211">Kartavya Patel</a>
+</p>
