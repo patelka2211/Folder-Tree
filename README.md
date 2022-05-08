@@ -52,12 +52,21 @@ It lets you see folder in a hierarchical manner and also counts every file exten
 
 |Total used languages|Top language|
 |:--:|:--:|
-|![GitHub language count](https://img.shields.io/github/languages/count/patelka2211/Folder-Tree)|![GitHub top language](https://img.shields.io/github/languages/top/patelka2211/Folder-Tree)|
+|[![GitHub language count](https://img.shields.io/github/languages/count/patelka2211/Folder-Tree)](https://api.github.com/repos/patelka2211/Folder-Tree/languages)|![GitHub top language](https://img.shields.io/github/languages/top/patelka2211/Folder-Tree)|
 
 # License
 
 [![GitHub](https://img.shields.io/github/license/patelka2211/Folder-Tree?color=%2359c7fa)](./LICENSE)
 
-<p style="text-align: center;">&copy; 2022
+<div style="display: flex; flex-direction: column; align-items: center;">
+<div style="display: flex; align-items: center;">
+&copy; 2022
+<a href="https://github.com/patelka2211" style="margin-left: 5px;">Kartavya Patel</a>
+</div>
+<img src="https://avatars.githubusercontent.com/u/82671701?v=4" width="60px"/>
+</div>
+
+<p style="text-align: center; align-items: center;">
+&copy; 2022
 <a href="https://github.com/patelka2211">Kartavya Patel</a>
 </p>
