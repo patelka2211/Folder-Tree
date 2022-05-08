@@ -65,8 +65,3 @@ It lets you see folder in a hierarchical manner and also counts every file exten
 </div>
 <img src="https://avatars.githubusercontent.com/u/82671701?v=4" width="60px"/>
 </div>
-
-<p style="text-align: center; align-items: center;">
-&copy; 2022
-<a href="https://github.com/patelka2211">Kartavya Patel</a>
-</p>
